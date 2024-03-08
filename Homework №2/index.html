@@ -8,9 +8,10 @@
 body {
     position: relative;
     color: white;
-    font-family: Times New Roman, sans-serif;
+    font-family: Arial, sans-serif;
     padding: 20px;
     font-size: 18px;
+    line-height: 1.6;
 }
 
 body::before {
@@ -27,13 +28,42 @@ body::before {
     filter: blur(7px);
     z-index: -1;
 }
+
 .round-image {
     border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+b, strong {
+    color: #FFD700;
+}
+
+u {
+    font-style: italic;
+}
+
+i {
+    font-weight: bold;
+    font-style: italic;
 }
     </style>
 </head>
 <body>
-    <h1 align="center">
+    <h1>
         📘 The Code Magazin
     </h1>
     <h2>
@@ -42,12 +72,12 @@ body::before {
     <img src="img/laura-jones.jpg" alt="Laura Jones" class="round-image">
     <p>
         Posted by <a href="LauraJones.html" target="_blank"><strong>Laura Jones</strong></a> on Monday, 
-        June 8th 2024</p>
+        June 8th 2024
+    </p>
     <p>
         All modern websites and web applications are built using three fundamental
-         technologies: HTML, CSS and JavaScript. These are the languages of the web.
+        technologies: HTML, CSS and JavaScript. These are the languages of the web.
     </p>
-    <br>
     <p>
         In this post, let's focus on HTML. We will learn 
         what HTML is all about, and why you too should learn it.
@@ -62,7 +92,7 @@ body::before {
     </p>
     <p>
         HTML consists of elements that describe different types of content: paragraphs, links,
-         headings, images, video, etc. Web browsers understand HTML and render HTML code as websites.
+        headings, images, video, etc. Web browsers understand HTML and render HTML code as websites.
     </p>
     <p>
         In HTML, each element is made up of 3 parts:
