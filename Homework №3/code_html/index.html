@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Basic User Information</legend>
+            <input type="text" id="fname" name="fname" placeholder="input your fullname" pattern="\w\D{2,32}"><br>
+            <input type="email" id="email" name="email" placeholder="input your email" pattern="\w\d[@]?"><br>
+            <label for="password">Input your password</label>
+            <input type="password" id="password" name="password" pattern="\w\d."><br>
+            <label for="confirmPassword">Input your password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword"><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="female">Other</label><br>
+            <label for="dateOfBirth">Date of Birth</label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth">
+        </fieldset>
+
+        <fieldset>
+            <legend>Address Information</legend>
+            <label for="streetAddress">Street Address</label><br>
+            <textarea id="address" name="streetAddress" rows="10" cols="50"></textarea><br>
+            <label for="cities">Chose your city</label>
+            <select name="cities" id="cities">
+                <option value="USA">USA</option>
+                <option value="Moldova">Moldova</option>
+                <option value="Spain">Spain</option>
+                <option value="Great Britan">Great Britan</option>
+                <option value="Romania">Romania</option>
+            </select><br>
+            <label for="city">Input your city</label>
+            <input type="text" name="city" id="city"><br>
+            <label for="postCode">Input your postcode</label>
+            <input type="number" id="postCode" name="postCode"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferences</legend>
+            <input type="checkbox" name="checkPhone" value="Phone">
+            <label for="checkPhone">Phone</label><br>
+            <input type="checkbox" name="checkEmail" value="Email">
+            <label for="checkEmail">Email</label><br>
+            <input type="checkbox" name="checkPost" value="PostMail">
+            <label for="checkPost">Post Mail</label><br>
+            <label for="favoriteColor">Favorite Color</label>
+            <input type="color" name="favoriteColor" id="color"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Details</legend>
+            <label for="x">How did you hear about us? </label>
+            <select name="x" id="x">
+                <option value="internet">Internet</option>
+                <option value="friends">Friends</option>
+                <option value="advertisement">Advertisement</option>
+            </select><br>
+            <label for="feedback">Feedback</label><br>
+            <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Upload a Profile Picture</legend>
+            <label for="profilePicture">Chose photo for your profile</label>
+            <input type="file" name="profilePicture" id="profilePicture" accept=".jpg, .png"><br>
+            <label for="website">WebSite URL</label>
+            <input type="url" name="website" id="website"><br>
+            <label for="range">Experience level with HTML</label>
+            <input type="range" name="experience" id="experience" min="1" max="10" value="5" oninput="displayValue.value = experience.value">
+            <output id="displayValue">5</output>
+            <output>/10</output>
+        </fieldset>
+        <input type="submit" name="submit" id="submit" value="SUBMIT">&nbsp;&nbsp;
+        <input type="reset" name="reset" id="reset" value="RESET">
+    </form>
+</body>
+</html>
