@@ -3,6 +3,68 @@
     margin: -9px;
     color: blue;
 }
+
+body{
+    font-size: 20px;
+}
+
+header{
+    padding: 4px;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+nav ul li::before{
+    content: "♥";
+    color: aqua;
+}
+nav ul li::after{
+    content: "♥";
+    color: aqua;
+}
+
+h1, nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+h1{
+    font-size: 2rem;
+    background-color: rgba(107, 175, 234, 0.495);
+}
+
+h2{
+    font-size: 3rem;
+}
+
 p{
     color: blueviolet;
+    font-size: 2em;
 }
+
+a:hover{
+    color: pink;
+}
+
+body p{
+    font-size: 20px;
+}
+
+h2:first-of-type{
+    color: blueviolet;
+}
+
+ol li:nth-child(even){
+    color: cadetblue;
+}
+
+.ul2 li:nth-last-child(2){
+    color: chartreuse;
+}
+
+img.main_photo{
+    width: calc(50% + 150px);
+}
+
+
