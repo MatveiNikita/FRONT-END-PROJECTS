@@ -1,0 +1,41 @@
+
+nav {
+    font-family: monospace;
+    font-size: 2vh;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    position: relative; 
+    margin-right: 20px; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f95c;
+    min-width: auto;
+    z-index: 1;
+    left: 1; 
+    top: 100%;
+}
+
+.dropdown-content li {
+    display: block;
+    white-space: nowrap;
+    padding: 1vh;
+}
+
+li:hover .dropdown-content {
+    display: block;
+}
