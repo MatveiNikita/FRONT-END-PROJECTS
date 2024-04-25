@@ -34,5 +34,5 @@ const Sarah = {
   },
 };
 
-console.log(Bob.checkIBM())
-console.log(Sarah.checkIBM());
+console.log(Bob.checkIBM(), Sarah.checkIBM())
+
