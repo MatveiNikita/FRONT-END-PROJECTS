@@ -1,0 +1,37 @@
+- add main CHENGELOG.md
+- some chenges
+- Merge pull request #11 from MatveiNikita/HM_JS_2
+- hee
+- First homework of JS
+- Merge pull request #9 from MatveiNikita/Homework_6
+- something changes
+- Tooltips )
+- Merge pull request #8 from MatveiNikita/Homework_6
+- Deep Scrolling
+- Delete Homework№5 directory
+- Merge pull request #7 from MatveiNikita/new_branch
+- Merge pull request #6 from MatveiNikita/MatveiNikita-patch-1
+- Deep Scrolling
+- Delete Homework№5 directory
+- Merge pull request #5 from MatveiNikita/Homework№5
+- Deep Scrolling
+- Homework number five
+- Merge pull request #4 from MatveiNikita/css-basic
+- Homework№4
+- Merge pull request #3 from MatveiNikita/FormsInHTML
+- added new changes
+- add Homework number three
+- Merge pull request #2 from MatveiNikita/html-basic
+- added changes
+- added changes
+- refresh project
+- In this homework I practiced themes what we learned on the last lesson
+- Merge pull request #1 from MatveiNikita/feature
+- removed text.txt
+- restructured the project
+- removed folder local with content, gitignore file and text.txt
+- added discription in file README
+- Added file and folder in gitignore
+- first commit
+- First change
+- Initial commit
