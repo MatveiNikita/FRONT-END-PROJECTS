@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("http://localhost:8080/api/countries/1")
+  fetch("http://localhost:8080/api/countries/5") //max 4 countries 
     .then((response) => response.json())
     .then((country) => {
       console.log(country);
